@@ -19,19 +19,19 @@ body{
 }
 
 @keyframes moveTextLeft {
-    0% { transform: translateX(100vw); }
-    100% { transform: translateX(-20vw); }
+    0% { transform: translateX(200%); }
+    100% { transform: translateX(-200%); }
 }
 
 .moving-text-left {
-    animation: moveTextLeft 3s linear infinite both; /* Adjust duration as needed */
+    animation: moveTextLeft 1s linear infinite both; /* Adjust duration as needed */
 }
 
 @keyframes moveTextRight {
-    0% { transform: translateX(-10vw); }
-    100% { transform: translateX(100vw); }
+    0% { transform: translateX(-500%); }
+    100% { transform: translateX(500%); }
 }
 
 .moving-text-right {
-    animation: moveTextRight 3s linear infinite both; /* Adjust duration as needed */
+    animation: moveTextRight 1s linear infinite both; /* Adjust duration as needed */
 }
