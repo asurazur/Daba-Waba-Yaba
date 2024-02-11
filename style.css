@@ -25,7 +25,7 @@ body{
 
 .moving-text-left {
     position: absolute;
-    top: 10%;
+    top: 10vh;
     left: 0;
     animation: moveTextLeft 3s linear infinite both; /* Adjust duration as needed */
 }
@@ -37,7 +37,7 @@ body{
 
 .moving-text-right {
     position: absolute;
-    top: 90%;
+    top: 90vh;
     left: 0;
     animation: moveTextRight 3s linear infinite both; /* Adjust duration as needed */
 }
